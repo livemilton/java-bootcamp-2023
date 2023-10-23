@@ -1,22 +1,30 @@
 public class Biography {
     public static void main(String[] args) {
-        
-        // Instructions for this workbook are on Learn the Part (see the Udemy Video: Workbook 2.2 to access the link).
 
+        // Instructions for this workbook are on Learn the Part (see the Udemy Video:
+        // Workbook 2.2 to access the link).
 
         // name (text)
+        String name = "Milton";
         // age (whole number)
+        int age = 36;
         // country (text)
+        String country = "Colombia";
         // sport (text)
+        String sport = "Chess";
         // hours (whole number)
+        int hours = 3;
         // game (text)
+        String game = "Game Boy advanced";
         // subject (text)
+        String subject = "Spanish";
         // grade (character)
-     
-        System.out.println("My name is <name>. I'm <age> years old, and I'm from <country> ");
-        System.out.println("My favourite sport is <sport>. I play for <hours> hours a day");
-        System.out.println("When I'm tired, I like to play <game>.");
-        System.out.println("In school, my favourite subject was <subject>, I scored a <grade>.");
+        char grade = 'A';
+
+        System.out.println("My name is " + name + " I'm " + age + " years old, and I'm from " + country + ".");
+        System.out.println("My favourite sport is " + sport + " . I play for " + hours + " hours a day");
+        System.out.println("When I'm tired, I like to play " + game + ".");
+        System.out.println("In school, my favourite subject was " + subject + " , I scored a " + grade + ".");
 
         // Compare your result to what's on Learn the Part.
     }
