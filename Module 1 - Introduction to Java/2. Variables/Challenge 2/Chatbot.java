@@ -23,7 +23,7 @@ public class Chatbot {
         System.out.println("\nI hear it's beautiful at " + country + " I'm from a place called Oracle");
         System.out.println("How old are you?");
         //Pick up age and store it.
-        int age = scanner.nextInt();
+        int age = scanner.nextInt();MILLISECOND
 
         scanner.nextLine();
         //add new a line before asking next question.
