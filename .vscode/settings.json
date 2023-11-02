@@ -1,6 +1,9 @@
 {
     "java.project.sourcePaths": [
         "Module 1 - Introduction to Java/5. Loops/Workbook 5.1 Solution",
+        "Module 1 - Introduction to Java/4. Functions/Workbook 4.1",
+        "Module 1 - Introduction to Java/4. Functions/AUdemyFunctions",
+        "Module 1 - Introduction to Java/3. Booleans and Conditionals/Workbook 3.5",
         "Module 1 - Introduction to Java/3. Booleans and Conditionals/Workbook 3.4",
         "Module 1 - Introduction to Java/3. Booleans and Conditionals/Workbook 3.3",
         "Module 1 - Introduction to Java/3. Booleans and Conditionals/Workbook 3.2",
@@ -16,6 +19,6 @@
         "Module 1 - Introduction to Java/1. Getting Started/Workbook 1.1",
         "Module 1 - Introduction to Java/1. Getting Started/Challenge 1 Solution",
         "Module 1 - Introduction to Java/1. Getting Started/Challenge 1",
-        "Module 1 - Introduction to Java/3. Booleans and Conditionals/Workbook 3.5"
+        "Module 1 - Introduction to Java/4. Functions/Workbook 4.2"
     ]
 }
