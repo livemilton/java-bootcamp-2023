@@ -59,6 +59,8 @@ public class WhileLoopExamples {
         // number1++;
         // }
 
+        // String greet = greeting();
+
     }
 
     // Function to simulate rolling a dice (returns a random integer between 1 and
@@ -71,5 +73,14 @@ public class WhileLoopExamples {
     public static int generateRandomNumber() {
         return (int) (Math.random() * 100) + 1;
     }
+
+    // quizz 4
+    // public static String greeting() {
+    // String greeting = " ";
+    // while (!greeting.equals("Hi")) {
+    // greeting = scan.nextLine();
+    // }
+    // return greeting;
+    // }
 
 }
