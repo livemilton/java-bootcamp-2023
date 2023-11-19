@@ -1,5 +1,5 @@
 public class Person {
-    
+
     private String name;
     private String nationality;
     private String dateOfBirth;
@@ -11,6 +11,15 @@ public class Person {
         this.nationality = nationality;
         this.dateOfBirth = dateOfBirth;
         this.seatNumber = seatNumber;
+    }
+
+    // COPY OF CONSTRUCTOR
+
+    public Person(Person source) {
+        this.name = source.name;
+        this.nationality = source.nationality;
+        this.dateOfBirth = source.dateOfBirth;
+        this.seatNumber = source.seatNumber;
     }
 
     public String getName() {
@@ -45,5 +54,5 @@ public class Person {
         this.seatNumber = seatNumber;
     }
 
- 
+
 }

@@ -1,8 +1,8 @@
 public class Main {
-  
+
     public static void main(String[] args) {
 
-        Person[] people = new Person[] { 
+        Person[] people = new Person[] {
             new Person("Cleopatra", "Egypt", "69 BC", 1),
             new Person("Alexander the Great", "Macedon", "356 BC", 2),
             new Person("Julius Caesar", "Rome", "100 BC", 3),
@@ -18,11 +18,19 @@ public class Main {
 
         Airline airline = new Airline();
 
+        // iterative for to populate de people in the airline with the set Person
         for (int i = 0; i < people.length; i++) {
+
+            airline.setPerson(people[i]);
 
         }
 
-     }
-    
-  
-}
+        // print values in specific index
+        System.out.println(airline.getPerson(1));
+        System.out.println(airline.getPerson(5));
+        System.out.println(airline.getPerson(10));
+
+    }
+
+ }
+ //

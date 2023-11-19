@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Person {
-    
+
     private String name;
     private String nationality;
     private String dateOfBirth;
@@ -12,6 +12,8 @@ public class Person {
         this.name = name;
         this.nationality = nationality;
         this.dateOfBirth = dateOfBirth;
+        // initialize the person
+        this.passport = new String[3];
         this.seatNumber = seatNumber;
     }
 
@@ -55,8 +57,16 @@ public class Person {
         this.seatNumber = seatNumber;
     }
 
-    public void setPassport() {
+    // 2 add the getter to the passport
+    public String[] getPassport() {
 
+        return Arrays.copyOf(passport, passport.length);
+    }
+
+    public void setPassport() {
+        passport[0] = name;
+        passport[1] = nationality;
+        passport[2] = dateOfBirth;
     }
 
     public boolean applyPassport() {
@@ -68,5 +78,6 @@ public class Person {
         seatNumber = ((int) (Math.random() * 11 + 1));
     }
 
- 
+
+
 }

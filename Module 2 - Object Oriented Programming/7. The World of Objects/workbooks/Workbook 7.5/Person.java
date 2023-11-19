@@ -1,5 +1,5 @@
 public class Person {
-    
+
     private String name;
     private String nationality;
     private String dateOfBirth;
@@ -19,7 +19,7 @@ public class Person {
         this.dateOfBirth = source.dateOfBirth;
         this.seatNumber = source.seatNumber;
     }
-    
+
 
     public String getName() {
         return name;
@@ -53,5 +53,15 @@ public class Person {
         this.seatNumber = seatNumber;
     }
 
- 
+    // function applyPassport
+    public boolean applyPassport() {
+        int number = (int) (Math.random() * 2); // random int that can be 0 or 1
+        return number == 1;
+    }
+
+    // function chooseSeat()
+    public void chooseSeat() {
+        seatNumber = (int) (Math.random() * 11 + 1); // 1-11;
+    }
+
 }
