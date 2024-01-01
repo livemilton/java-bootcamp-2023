@@ -20,9 +20,9 @@ public class Main {
      * @param stocksProfit
      * @param target
      * @return integer
-     */
+     
     public static int stockPairs(List<Integer> stocksProfit, Long target) {
-
+        /*
         stocksProfit =
 
         target

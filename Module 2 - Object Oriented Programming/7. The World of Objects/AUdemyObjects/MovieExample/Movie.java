@@ -1,3 +1,5 @@
+package MovieExample;
+
 public class Movie {
 
     private String name;
@@ -5,9 +7,9 @@ public class Movie {
     private double rating;
 
     public Movie(String name, String format, double rating) {
-        setName(name);
-        setFormat(format);
-        setRating(rating);
+        this.name = name;
+        this.format = format;
+        this.rating = rating;
     }
 
     public Movie(Movie source) {
@@ -16,44 +18,49 @@ public class Movie {
         this.rating = source.rating;
     }
 
+    /**
+     * @return String return the name
+     */
     public String getName() {
-        return name;
+        return this.name;
     }
 
+    /**
+     * @param name the name to set
+     */
     public void setName(String name) {
-        // TODO
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("The name cannot be null or blank");
-        }
-
         this.name = name;
     }
 
+    /**
+     * @return String return the format
+     */
     public String getFormat() {
-        return format;
+        return this.format;
     }
 
+    /**
+     * @param format the format to set
+     */
     public void setFormat(String format) {
-        // TODO
-        if (format == null || format.isBlank()) {
-            throw new IllegalArgumentException("The format cannot be null or blank");
-        }
-
         this.format = format;
     }
 
+    /**
+     * @return double return the rating
+     */
     public double getRating() {
-        return rating;
+        return this.rating;
     }
 
+    /**
+     * @param rating the rating to set
+     */
     public void setRating(double rating) {
-        // TODO
-        if (rating < 0 || rating > 10) {
-            throw new IllegalArgumentException("The rating must be between 0 and 10");
-        }
         this.rating = rating;
     }
 
+    @Override
     public String toString() {
         return this.rating + "\t" + this.format + "\t\t" + this.name + "";
     }
