@@ -15,9 +15,13 @@
         "Module 2 - Object Oriented Programming/7. The World of Objects/workbooks/Workbook 7.1 Solution",
         "Module 2 - Object Oriented Programming/7. The World of Objects/workbooks/Workbook 7.1",
         "Module 2 - Object Oriented Programming/7. The World of Objects/AUdemyObjects",
+        "Module 2 - Object Oriented Programming/11. Map Collections/Lessons/map-equality",
+        "Module 2 - Object Oriented Programming/11. Map Collections/Lessons/map-collections",
+        "Module 2 - Object Oriented Programming/11. Map Collections/Lessons/Test",
         "Module 2 - Object Oriented Programming/10. Exception Handling/Lessons/unchecked-exceptions/common-exceptions",
         "Module 2 - Object Oriented Programming/10. Exception Handling/Lessons/unchecked-exceptions/argument-validation",
         "Module 2 - Object Oriented Programming/10. Exception Handling/Lessons/checked-exceptions",
+        "Module 2 - Object Oriented Programming/10. Exception Handling/Extra Practice/Part 1",
         "Module 1 - Introduction to Java/6. Arrays/Workbook 6.9",
         "Module 1 - Introduction to Java/6. Arrays/Workbook 6.8 Solution",
         "Module 1 - Introduction to Java/6. Arrays/Workbook 6.8",
@@ -71,7 +75,7 @@
         "Module 1 - Introduction to Java/1. Getting Started/Challenge 1 Solution",
         "Module 1 - Introduction to Java/1. Getting Started/Challenge 1",
         ".vscode/JavaTest",
-        "Module 2 - Object Oriented Programming/10. Exception Handling/Extra Practice/Part 1"
+        "Module 2 - Object Oriented Programming/11. Map Collections/Workbook/starter"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
